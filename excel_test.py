@@ -1,15 +1,14 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Date    : 2018-07-27 17:26:39
 # @Author  : ${menzec} (${menzc@outlook.com})
 # @Link    : http://example.org
 # @Version : $Id$
 
+import sys
+import shutil
 import os
 import xlrd
 import xlwt
-import sys
-import shutil
 
 
 def Regular_Dir(root):
